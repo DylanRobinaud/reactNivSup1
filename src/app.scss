@@ -1,0 +1,44 @@
+root {
+}
+
+body {
+  background-color: lightgrey;
+  font-family: sans-serif;
+  p {
+    color: grey;
+  }
+}
+
+.carteAlbum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+  width: 24rem;
+}
+
+.abovePart {
+  display: flex;
+  border: 1px solid lightgrey;
+  .img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0.4rem 0 0 0;
+  }
+  .descriptionImg {
+    margin: 0;
+    padding-left: 1rem;
+  }
+}
+
+.belowPart {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  .star {
+    margin: 2rem 0;
+    font-size: x-large;
+  }
+}
